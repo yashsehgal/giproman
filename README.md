@@ -1,3 +1,4 @@
+![CI](https://github.com/yashsehgal/giproman/workflows/CI/badge.svg)
 # giproman
 
 ### About Project
