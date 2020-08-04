@@ -1,5 +1,5 @@
-#ifndef _GIPROMAN_SOURCE__USER_GITHUB_DETAILS___
-#define _GIPROMAN_SOURCE__USER_GITHUB_DETAILS___
+#ifndef _GIPROMAN_SOURCE_DETAILS_USER_GITHUB_DETAILS___
+#define _GIPROMAN_SOURCE_DETAILS_USER_GITHUB_DETAILS___
 
 /** 
  * TODO: To specify all the online details and URLS for external code usage
@@ -29,4 +29,4 @@ class UserGithubDetails {
   const char * get_github_account_url() {return github_account_url;}
 };
 
-#endif // _GIPROMAN_SOURCE__USER_GITHUB_DETAILS___
+#endif // _GIPROMAN_SOURCE_DETAILS_USER_GITHUB_DETAILS___

@@ -1,5 +1,5 @@
-#ifndef _GIPROMAN_SOURCE__USER_DETAILS___
-#define _GIPROMAN_SOURCE__USER_DETAILS___
+#ifndef _GIPROMAN_SOURCE_DETAILS_USER_DETAILS___
+#define _GIPROMAN_SOURCE_DETAILS_USER_DETAILS___
 
 /** 
  * This code file contains the details of the user which can be used directly by other development modules.
@@ -61,4 +61,4 @@ class UserDetails {
   const char * get_user_email_addresses() {return *user_email_addresses;}
 };
 
-#endif // _GIPROMAN_SOURCE__USER_DETAILS___
+#endif // _GIPROMAN_SOURCE_DETAILS_USER_DETAILS___

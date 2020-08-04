@@ -1,5 +1,5 @@
-#ifndef _GIPROMAN_SOURCE__USER_BITBUCKET_DETAILS___
-#define _GIPROMAN_SOURCE__USER_BITBUCKET_DETAILS___
+#ifndef _GIPROMAN_SOURCE_DETAILS_USER_BITBUCKET_DETAILS___
+#define _GIPROMAN_SOURCE_DETAILS_USER_BITBUCKET_DETAILS___
 
 /** 
  * TODO: To specify all the online details and URLS for external code usage
@@ -32,4 +32,4 @@ class UserBitBucketDetails {
   const char * get_bitbucket_account_dashboard_url() {return bitbucket_account_dashboard_url;}
 };
 
-#endif // _GIPROMAN_SOURCE__USER_BITBUCKET_DETAILS___
+#endif // _GIPROMAN_SOURCE_DETAILS_USER_BITBUCKET_DETAILS___
