@@ -1,26 +1,32 @@
-// test: accessing terminal and executing shell commands using c++
-
-#include <stdlib.h>
 #include <iostream>
+#include <stdlib.h>
+#include <Windows.h>
+#include <string>
 
-void test_shell_commands(void) {
-  // system command testing
-  char * commandInput;
-  while (true) {
-    std::cout << "enter command> ";
-    std::cin >> commandInput;
-    if (commandInput == nullptr) {
-      std::cout << " " << std::endl;
-    } else if (commandInput == "exit") {
-      break;
-    } else {
-      system(commandInput);
-    }
-  }
-  std::cout << "program exited..." << std::endl;
+
+void tester(void);
+
+void tester(void) {
+	char change_dir_command[4] = "cd ";
+	const char * path = "C:/Users/yashs/Desktop/giproman";
+	
+	char * command = strcat(change_dir_command, path);
+	
+	// git command to check the current project status
+	const char * git_command = "git status";
+	
+	// std::cout << "path> " << path << std::endl;
+	// std::cout << "cd> " << change_dir_command << std::endl;
+	
+	system("cmd \n");
+	// writing path validator command
+	system(command);
+//	sleep(2000);
+	system(git_command);
+
 }
 
 int main() {
-  test_shell_commands();
-  return 0;
+	tester();
+	return 0;
 }
