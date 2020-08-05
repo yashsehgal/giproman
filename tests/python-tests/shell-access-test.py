@@ -8,3 +8,7 @@
 # stream = os.popen('echo Returned Output')
 # output = stream.read()
 # print(output)
+
+# executing git commands in shell - cmd
+# import os as os
+# os.system('git status')
