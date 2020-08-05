@@ -6,7 +6,7 @@ class GitCommands {
   const char * access_key_command = "git";
   const char * check_status_command = "git status";
   const char * add_all_files_command = "git add";
-  const char * commit_files_command = "git commit -m \"Updates commited.\"";
+  const char * commit_files_command = "git commit -m \"Updates committed.\"";
   const char * push_files_command = "git push -u origin master";
   const char * add_remote_command = "git remote add origin";
   public:
