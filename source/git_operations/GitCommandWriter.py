@@ -15,10 +15,10 @@ class GitCommandWriter:
     self.message = message
     
     os.system("git add %s" % (filename))
-    os.system("git commit -m %s" % (message))
+    os.system("git commit -m \"%s\"" % (message))
     os.system("git push -u origin master")
 
-driver = GitCommandWriter(filename=".", command="", message="Updates.")
+driver = GitCommandWriter(filename=".", command="", message="This file has modified Methods are redefined")
     # self.check_command_validity()
     
   # '''
